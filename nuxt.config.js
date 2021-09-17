@@ -34,7 +34,7 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     ['~/modules/sample/module.js', {
-      pathName: 'prodcuts'
+      pathName: 'products'
     }]
   ],
 

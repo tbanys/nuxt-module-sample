@@ -31,4 +31,8 @@ export default function(moduleOptions) {
       pathName,
     },
   });
+
+  this.addPlugin({
+    src: path.resolve(__dirname, './storePlugin.js'), 
+  });
 }
