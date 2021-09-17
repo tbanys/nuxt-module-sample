@@ -33,6 +33,9 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    ['~/modules/sample/module.js', {
+      pathName: 'prodcuts'
+    }]
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
